@@ -1,0 +1,26 @@
+[
+    {
+        "class": "car",
+        "confidence": 0.9978523254394531,
+        "x": 104,
+        "y": 68,
+        "width": 737,
+        "height": 486
+    },
+    {
+        "class": "car",
+        "confidence": 0.9090309739112854,
+        "x": -1,
+        "y": 0,
+        "width": 138,
+        "height": 367
+    },
+    {
+        "class": "car",
+        "confidence": 0.6995713114738464,
+        "x": 855,
+        "y": -27,
+        "width": 99,
+        "height": 387
+    }
+]
