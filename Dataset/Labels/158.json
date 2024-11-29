@@ -1,0 +1,15 @@
+{
+    "image": "158.png",
+    "detections": {
+        "matricule": [
+            {
+                "x": 1121.5,
+                "y": 989.0,
+                "width": 335.0,
+                "height": 82.0,
+                "class_id": 0
+            }
+        ],
+        "car": []
+    }
+}
