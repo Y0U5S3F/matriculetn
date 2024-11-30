@@ -3,11 +3,12 @@
     "detections": {
         "matricule": [
             {
+                "value": "DE 935LN",
                 "x": 91.5,
                 "y": 113.5,
                 "width": 59.0,
                 "height": 19.0,
-                "class_id": 0
+                "class_id": 2
             }
         ],
         "car": [
