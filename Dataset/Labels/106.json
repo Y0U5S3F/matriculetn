@@ -3,6 +3,7 @@
     "detections": {
         "matricule": [
             {
+                "value": "145 1373",
                 "x": 44.0,
                 "y": 76.5,
                 "width": 36.0,
