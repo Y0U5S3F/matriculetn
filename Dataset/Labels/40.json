@@ -3,11 +3,12 @@
     "detections": {
         "matricule": [
             {
+                "value":"161771",
                 "x": 317.0,
                 "y": 139.5,
                 "width": 110.0,
                 "height": 31.0,
-                "class_id": 0
+                "class_id": 1
             }
         ],
         "car": [

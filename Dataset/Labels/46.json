@@ -1,7 +1,16 @@
 {
     "image": "46.png",
     "detections": {
-        "matricule": [],
+        "matricule": [        
+            {
+            "value": "132 6731",
+            "x": 116.5,
+            "y": 153.0,
+            "width": 77.0,
+            "height": 18.0,
+            "class_id": 0
+        }
+    ],
         "car": [
             {
                 "class_id": 2,
