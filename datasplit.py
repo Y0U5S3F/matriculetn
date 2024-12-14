@@ -4,13 +4,13 @@ from sklearn.model_selection import train_test_split
 
 # Paths
 dataset_dir = r'C:\Users\yessi\Desktop\Matricule\categories'
-output_dir = r'C:\Users\yessi\Desktop\Dataset_split'
-categories = ['tunisia', 'nt', 'others']  # Subfolders
+output_dir = r'C:\Users\yessi\Desktop\Datasetsplit'
+categories = ['tunisia', 'nt']  # Subfolders
 
 # Train-Test-Validation split ratios
-train_ratio = 0.7
+train_ratio = 0.8
 val_ratio = 0.2
-test_ratio = 0.1
+test_ratio = 0.2
 
 # Create output directories
 for split in ['train', 'val', 'test']:
