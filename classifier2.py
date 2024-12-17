@@ -5,7 +5,6 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropou
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import matplotlib.pyplot as plt
 
-# Directories
 data_dir = r'C:\Users\yessi\desktop\Datasetsplit'  # Folder with train, val, test subfolders
 train_dir = os.path.join(data_dir, 'train')
 val_dir = os.path.join(data_dir, 'val')
@@ -53,7 +52,7 @@ test_generator = val_test_datagen.flow_from_directory(
     shuffle=False  # Important: Do not shuffle for testing
 )
 
-# Model Architecture
+# the model
 model = Sequential([
     Conv2D(32, (3, 3), activation='relu', input_shape=(image_size[0], image_size[1], 1)),
     MaxPooling2D((2, 2)),
@@ -75,7 +74,6 @@ model.compile(optimizer='adam',
               loss='binary_crossentropy',
               metrics=['accuracy'])
 
-# Summary of the model
 model.summary()
 
 # Train the model
@@ -105,6 +103,7 @@ plt.legend()
 plt.title('Loss')
 plt.show()
 
-# Save the model
+
 model.save('license_plate_classifier2.h5')
 print("Model saved successfully!")
+

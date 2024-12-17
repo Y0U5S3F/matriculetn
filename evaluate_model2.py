@@ -7,8 +7,6 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropou
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import matplotlib.pyplot as plt
 
-
-# Load the model
 model = tf.keras.models.load_model('license_plate_classifier2.h5')
 
 image_size = (128,128)
@@ -20,10 +18,10 @@ img_array = image.img_to_array(img)  # Convert image to array
 img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
 img_array = img_array / 255.0  # Normalize the image (same as training)
 
-# Make a prediction
+# Prediction
 prediction = model.predict(img_array)
 
-# Output the result
+
 if prediction[0] > 0.5:
     print("Class 1: Image contains numbers")
 else:
