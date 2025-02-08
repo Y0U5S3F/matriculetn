@@ -7,4 +7,4 @@ This project demonstrates car detection using the YOLO (You Only Look Once) mode
 To install the required dependencies, run the following command:
 
 ```sh
-!pip install opencv-python-headless moviepy
+!pip install supervision Pillow ultralytics numpy opencv-python inference-sdk
